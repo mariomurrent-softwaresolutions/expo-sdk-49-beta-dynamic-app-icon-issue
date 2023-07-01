@@ -1,0 +1,1 @@
+# expo-sdk-49-beta-dynamic-app-icon-issue
