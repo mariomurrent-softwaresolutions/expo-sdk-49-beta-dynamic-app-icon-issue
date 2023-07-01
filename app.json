@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "expo-sdk-49-beta-dynamic-app-icon-issue",
+    "slug": "expo-sdk-49-beta-dynamic-app-icon-issue",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lightstalker89.exposdk49betadynamicappiconissue"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-dynamic-app-icon",
+        {
+          "standard": {
+            "image": "./assets/icon.png",
+            "prerendered": true
+          },
+          "calc": {
+            "image": "./assets/icon.png",
+            "prerendered": true
+          },
+          "game": {
+            "image": "./assets/icon.png",
+            "prerendered": true
+          },
+          "radio": {
+            "image": "./assets/icon.png",
+            "prerendered": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c5c3d160-e824-453d-8c4a-6f7e2dce3600"
+      }
+    }
+  }
+}
