@@ -15,8 +15,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.lightstalker89.exposdk49betadynamicappiconissue"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
